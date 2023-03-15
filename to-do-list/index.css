@@ -1,0 +1,108 @@
+@keyframes bounce {
+    0% {transform: translateY(0);} 
+    10% {transform: translateY(-50px);} 
+    20% {transform: translateY(0px);}
+    30% {transform: translateY(-25px);} 
+    40% {transform: translateY(0px);} 
+    50% {transform: translateY(-13px);} 
+    60% {transform: translateY(0px);} 
+    70% {transform: translateY(-7px);}  
+    80% {transform: translateY(0px);} 
+    90% {transform: translateY(-3px);}  
+    100% {transform: translateY(0px);} 
+
+ } 
+
+body{
+background:rgb(79, 175, 212);
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+text-align: center;
+}
+
+.yhyh{
+position: relative;
+top: 150px;
+animation-name: bounce;
+animation-duration: 2s;
+}
+
+h1{
+font-weight: 800;
+color: white;
+}
+p{
+font-weight: 600;    
+}
+
+#color1{
+color: rgb(243, 240, 65);
+}
+
+#color2{
+color: rgb(150, 253, 90);
+}
+
+#color3{
+color: rgb(0, 117, 153);
+}
+
+input{
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+padding:0px 5px;
+height: 40px;
+width: 250px;
+border-radius: 5px;
+border: none;
+/* filter: drop-shadow(1px 1px 2px rgba(0, 0, 0, 0.25));  */
+background: white;
+font-size: 14px;
+color:rgb(40, 40, 40);
+font-weight: 600;
+}
+
+button{
+border-radius: 5px;
+height: 50px;
+width: 50px;
+border: none;
+color:rgb(100, 100, 100);
+/* filter: drop-shadow(1px 1px 2px rgba(0, 0, 0, 0.25)); */
+background: white;
+}
+
+#add:hover{
+color: rgb(16, 175, 135);
+}
+
+button:hover{
+color: rgb(255, 77, 71);
+}
+
+#add{
+height: 50px;
+width: 50px;
+color:rgb(100, 100, 100); 
+background:white;
+filter: drop-shadow(1px 1px 2px rgba(0, 0, 0, 0.25));
+}
+
+.adding{
+display: inline-block;
+background-color: white;
+height: 50px;
+width: 320px;
+border-radius: 5px;
+padding:0;
+filter: drop-shadow(1px 1px 2px rgba(0, 0, 0, 0.25));
+}
+
+li{
+background:white;
+text-align: center;
+list-style: none;
+border-radius: 5px;
+padding: 10px 0px;
+filter: drop-shadow(1px 1px 2px rgba(0, 0, 0, 0.25));
+transition: 0.5s ease-in;
+margin: 5px 0px;
+}
